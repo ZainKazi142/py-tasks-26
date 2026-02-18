@@ -47,7 +47,6 @@ if authenticate(password) == True:
             deposit(deposit_amount)
 
             print(f"The new balance is {passwords[username]['balance']}")
-            break
 
         if choice == 3:
             withdraw_amount = int(input("Enter the amount to be withdrawn: "))
