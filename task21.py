@@ -64,3 +64,5 @@ if authenticate(password) == True:
 
     print("Thank you for using the ATM.")
     exit()
+else:
+    print("Wrong password")
